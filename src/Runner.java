@@ -43,13 +43,13 @@ public class Runner {
     Comedian mark = new Comedian("Mark", 23, stacey);
     System.out.println(studio54.removePerformer(mark));// should print FALSE (because mark hasn't been added)
 
-/*
+
     //------ TESTING averagePerformerAge method ------
     System.out.println("----- TESTING averagePerformerAge method -----");
     double averageAge = studio54.averagePerformerAge();
     System.out.println(averageAge);                   // should print 18.6
-*/
-/*
+
+
     //------ TESTING performersOverAge method ------
     System.out.println("----- TESTING performersOverAge method -----");
     ArrayList<Performer> returned = studio54.performersOverAge(19);
@@ -57,18 +57,18 @@ public class Runner {
     System.out.println(returned.get(0).getName());    // should print Penny
     System.out.println(returned.get(1).getName());    // should print Carol is a dancer!
     System.out.println(returned.get(2).getName());    // should print Jack
-*/
-/*
+
+
     //------ TESTING groupRehearsal method ------
     System.out.println("----- TESTING groupRehearsal method -----");
     derrick.writeJoke("What do you give to a sick lemon? Lemon aid!");
     jack.writeJoke("What do you call a farm that makes bad jokes? Corny!");
     studio54.groupRehearsal();   // see Exploration for expected output
-*/
-/*
+
+
     //------ TESTING cabaretShow method ------
     System.out.println("----- TESTING cabaretShow method -----");
     studio54.cabaretShow();   // see Exploration for expected output
-*/
+
   }
 }
