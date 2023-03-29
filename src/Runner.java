@@ -11,14 +11,14 @@ public class Runner {
     Performer jesse = new Performer("Jesse", 25, stacey);
     Comedian jack = new Comedian("Jack", 21, stacey);
     Dancer tony = new Dancer("Tony", 16, stacey, 8);
-/*
+
     //------ TESTING constructor ------
     System.out.println("----- TESTING constructor -----");
     Cabaret studio54 = new Cabaret("Studio 54");
     System.out.println(studio54.getName());
     System.out.println(studio54.getPerformers().size());
-*/
-/*
+
+
     //------ TESTING addPerformer method ------
     System.out.println("----- TESTING addPerformer method -----");
     System.out.println(studio54.addPerformer(penny));   // should print true
@@ -33,8 +33,8 @@ public class Runner {
     System.out.println(list.size());                    // should print 6
     System.out.println(list.get(2).getName());          // should print "Carol is a Dancer!"
     System.out.println(list.get(3).getName());          // should print "Jesse"
-*/
-/*
+
+
     //------ TESTING removePerformer method ------
     System.out.println("----- TESTING removePerformer method -----");
     System.out.println(studio54.removePerformer(jesse));// should print true
@@ -42,7 +42,7 @@ public class Runner {
     System.out.println(list.get(3).getName());          // should print "Jack"
     Comedian mark = new Comedian("Mark", 23, stacey);
     System.out.println(studio54.removePerformer(mark));// should print FALSE (because mark hasn't been added)
-*/
+
 /*
     //------ TESTING averagePerformerAge method ------
     System.out.println("----- TESTING averagePerformerAge method -----");
